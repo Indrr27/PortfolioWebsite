@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<!-- The document type declaration, defining this document as HTML5 -->
+
+<html lang="en">
+<!-- The root element of the HTML document, with 'lang' attribute specifying English as the primary language -->
+
+<head>
+   <meta charset="UTF-8">
+   <!-- Meta tag defining the character set as UTF-8 -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- Meta tag for responsive design, setting the viewport width to device width and initial scale to 1 -->
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+   <!-- Link to the favicon, the small icon shown in the tab -->
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+   <!-- Link to Remixicon, a set of icons -->
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <!-- Link to the main stylesheet for this website -->
+
+   <title>Inderpreet portfolio</title>
+   <!-- The title of the web page -->
+
+   <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <!-- The header of the web page containing navigation -->
+
+      <nav class="nav container">
+         <!-- Navigation bar -->
+
+         <a href="index.html" class="nav__logo">Inder</a>
+         <!-- Logo, typically links to the home page -->
+
+         <div class="nav__menu" id="nav-menu">
+            <!-- Container for the navigation menu -->
+
+            <ul class="nav__list">
+               <!-- Unordered list for navigation links -->
+
+               <li class ="nav__item">
+                  <a href="#about-me" class="nav__link">About Me</a>
+               </li>
+               <!-- Navigation item linking to the home page -->
+
+               <li class ="nav__item">
+                  <a href="#languages" class="nav__link">Skills</a>
+               </li>
+               <!-- Navigation item linking to the about page -->
+
+               <li class ="nav__item">
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
+               <!-- Navigation item linking to the portfolio/work page -->
+
+               <li class ="nav__item">
+                  <a href="mailto:inderwarraich123@gmail.com" class="button">Contact Me</a>
+               </li>
+               <!-- Navigation item linking to the contact page -->
+
+            </ul>
+
+         </div>
+
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <section id="about-me">
+
+      <div class = "flex flex1">
+         <div class="about-me__info row">
+            <div class="about-me__info--container">
+
+               <figure class ="about-me__picture--mask prefil">
+                  <div class="prefil-content">
+                  <img src="assets\img\home-perfil.png" alt ="Picture of me" class="about-me__picture">
+               </div>
+               </figure>
+               <h1 class="about-me__info--title">
+                  Hey! I'm Inderpreet Warraich
+               </h1>
+               <p class="about-me__info--para">I am an aspiring software developer with a diverse skill set spanning game development, data science, and system design. My passion lies in creating innovative and efficient solutions to complex problems, 
+                  leveraging technologies such as Lua, Python, SQL, and C#.</p>
+
+               <div class="about-me__links">
+                  <a href="https://www.linkedin.com/in/inderpreet-warraich-29b0042a8/"  target="_blank" class="about-me__link">
+                     <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  <a href="https://github.com/Indrr27" target="_blank" class="about-me__link">
+                     <i class="fab fa-github"></i>
+                  </a>
+                  <a href="mailto:inderwarraich123@gmail.com"  target="_blank" class="about-me__link">
+                     <i class="far fa-envelope"></i>
+                  </a>
+                  <a href="assets\pdf\Inder_Resume.pdf" target="_blank" class="about-me__link">
+                     <i class="fas fa-file-pdf"></i>
+                  </a>
+               </div>
+            </div>
+            <figure class ="about-me__img--container">
+               <img src="assets\img\undraw_websites.svg" class="about-me__img">
+            </figure>
+         </div>
+
+      </div>
+
+   </section>
+
+   <section id="languages">
+      <div class="lang_container">
+         <div class="row">
+            <h1 class = "language__title">Some of my skills</h1>
+            <figure class ="skills__img--container">
+               <img src="assets\img\about-python.svg" class="skills__img">
+               <img src="assets\img\about-java.svg" class="skills__img">
+               <img src="assets\img\about-sql.svg" class="skills__img">
+               <img src="assets\img\about-lua.svg" class="skills__img">
+               <img src="assets\img\about-cpp.svg" class="skills__img">
+               <img src="assets\img\about-html.svg" class="skills__img">
+               <img src="assets\img\about-css.svg" class="skills__img">        
+               <img src="assets\img\about-javascript.svg" class="skills__img">
+               <img src="assets\img\about-vba.svg" class="skills__img">
+            </figure>
+
+         </div>
+      </div>
+   </section>
+   
+   <h1 class = "project_title">My Projects</h1>
+   <section id="projects">
+      <div class="cards cards-1">
+         <div class="card">
+            <div class="img-holder"></div>
+            <div class="card-content">
+               <h2>POS Using SQL & Python</h2>
+               <p>An advanced Python application for seamless cloud-based SQL database management, featuring a user-friendly GUI, comprehensive data handling, and simple setup.</p>
+               <a href="https://github.com/Indrr27/POS-SQL-PYTHON-" target="_blank">Check it out!</a>
+            </div>
+         </div>
+      </div>
+      <div class="cards cards-2">
+         <div class="card">
+            <div class="img-holder"></div>
+            <div class="card-content">
+               <h2>3D Cube With C++</h2>
+               <p>2x2 Rubik's Cube OpenGL Project: A graphical representation of a 2x2 Rubik's Cube using OpenGL, showcasing a static 3D model with detailed, color-accurate mini-cubes.</p>
+               <a href="https://github.com/Indrr27/3D-Cube-OpenGL" target="_blank">Check it out!</a>
+            </div>
+         </div>
+      </div>
+      <div class="cards cards-3">
+         <div class="card">
+            <div class="img-holder"></div>
+            <div class="card-content">
+               <h2>Payroll VBA Application</h2>
+               <p>A user-friendly Excel application with macro-enabled features for staff management and payroll processing, including options to add, remove, edit, view staff, and enter weekly data.</p>
+               <a href="https://github.com/Indrr27/PayrollVBA" target="_blank">Check it out!</a>
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="row footer__row">
+        <a href="#" class="footer__anchor">
+          <span class="footer__logo--popper">
+            Top
+            <i class="fas fa-arrow-up"></i>
+          </span>
+        </a>
+        <div class="footer__social--list">
+          <a href="https://github.com/Indrr27" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+          " target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/inderpreet-warraich-29b0042a8/" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+          " target="_blank">LinkedIn</a>
+          <a href="mailto:inderwarraich123@gmail.com" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+          " target="_blank">Email</a>
+          <a href="assets\pdf\Inder_Resume.pdf" target="_blank" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white
+          " target="_blank">Resume</a>
+        </div>
+        <div class="footer__copyright">Copyright © 2024 Inderpreet Warraich</div>
+      </div>
+    </footer>
+
+
+
+</body>
+</html>
